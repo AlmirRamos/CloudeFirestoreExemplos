@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443982633506",
+    "project_id": "cloudfirestore-exemplos",
+    "storage_bucket": "cloudfirestore-exemplos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443982633506:android:215b01a201f4e11b30087b",
+        "android_client_info": {
+          "package_name": "com.ngg.cloudefirestoreexemplos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1UqE4Ni7G4Pn0TKUKby6p8Tfv1DduZE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

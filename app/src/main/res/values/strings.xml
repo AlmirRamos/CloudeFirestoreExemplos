@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CloudeFirestoreExemplos</string>
+    <string name="perfil">Perfil</string>
+    <string name="deslogar">Deslogar</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="name">Name</string>
+    <string name="criar_conta_agora">Criar conta agora</string>
+    <string name="nome_default">Joao ferreira</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="add_img_perfil">button add imagem de perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
