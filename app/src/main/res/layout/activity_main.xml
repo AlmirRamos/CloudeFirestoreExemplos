@@ -22,12 +22,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/md_theme_primary"
+        android:contentDescription="menu top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/includeToolbarMain"
+        app:tabTextColor="@color/md_theme_primaryContainer"
         app:tabIndicatorColor="@color/white"
         app:tabIndicatorHeight="5dp"
-        app:tabSelectedTextColor="@color/white"/>
+        app:tabSelectedTextColor="@color/white"
+        tools:ignore="HardcodedText" />
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPagerPrincipal"

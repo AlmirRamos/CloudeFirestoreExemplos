@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
         val toolbar = binding.includeToolbarMain.tbPrincipal
         setSupportActionBar(toolbar)
         supportActionBar?.apply {
-            title = "FirebaseFirestore"
+            title = "Exemplos Firebase"
         }
 
         addMenuProvider(

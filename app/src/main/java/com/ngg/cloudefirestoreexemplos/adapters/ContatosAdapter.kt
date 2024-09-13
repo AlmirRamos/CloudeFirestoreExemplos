@@ -10,7 +10,7 @@ import com.ngg.cloudefirestoreexemplos.model.User
 import com.squareup.picasso.Picasso
 
 class ContatosAdapter(
-    val onClick: (User)-> Unit
+    private val onClick: (User)-> Unit
 ) : Adapter<ContatosAdapter.ContatosViewHolder>() {
 
     private var listacontatos = emptyList<User>()
@@ -22,10 +22,14 @@ class ContatosAdapter(
 
     inner class ContatosViewHolder(private val binding: RecyclerViewItemBinding) : ViewHolder(binding.root){
 
-        fun bind( lista: User) {
-            binding.textNameItem.text = lista.name
-            binding.textEmailItem.text = lista.email
-            Picasso.get().load(lista.photo).into(binding.imgPerfilItem)
+        fun bind(usuario: User) {
+            binding.textNameItem.text = usuario.name
+            binding.textEmailItem.text = usuario.email
+            Picasso.get().load(usuario.photo).into(binding.imgPerfilItem)
+
+            binding.layoutItem.setOnClickListener {
+                onClick( usuario )
+            }
         }
     }
 
